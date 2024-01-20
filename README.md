@@ -44,7 +44,7 @@ For inserting all the subscribers from the csv file use autoBATCH.py program. Ru
 
     python3 autoBATCH.py
     
-# ADDITIONAL INFO:
+# ADDITIONAL INFO
 
 Along with registering IMSI, OPC, Key and MSISDN of the subscribers this program sets these below settings for each subscriber.
 
