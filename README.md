@@ -1,7 +1,9 @@
 # UE_Insertion_Automation_Script
-When we play with **Open5gs**, we always need to register subscribers. But subscribers insertion in the HSS database of Open5gs is a time-consuming work. Here we have python scripts that can insert subscribers from a csv file to to database without any manual intervention.
+When we play with **Open5gs** which is an open source **5G Core** and **EPC**, we always need to register subscribers. But subscriber insertion in the HSS database of Open5gs is a time-consuming work. So, to make life easier, we have developed python scripts that can insert subscribers from a csv file to database without any manual intervention.
 
 **Note:** UEs inserted using these scripts are capable for both internet browsing and VoLTE.
+
+***OS: Ubuntu 22.04***
 
 # FILES
 
@@ -44,9 +46,9 @@ For inserting all the subscribers from the csv file use autoBATCH.py program. Ru
 
     python3 autoBATCH.py
     
-# ADDITIONAL INFO
+# Additional Info
 
-Along with registering IMSI, OPC, Key and MSISDN of the subscribers this program sets these below settings for each subscriber.
+Along with registering IMSI, OPC, Key and MSISDN of the subscribers, this program sets these below settings for each subscriber.
 
     AMF = 8000
 
